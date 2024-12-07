@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  vapor-app:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - vapor-db:/app/Public/db.sqlite
+      - vapor-uploads:/app/Public/uploads
+    restart: always
+
+volumes:
+  vapor-db:
+  vapor-uploads: 

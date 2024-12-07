@@ -1,0 +1,100 @@
+/* 数据概览页面样式 */
+.data-overview {
+    padding: 20px;
+}
+
+/* 筛选器容器 */
+.filter-container {
+    margin-bottom: 20px;
+}
+
+/* 数据卡片样式 */
+.data-cards {
+    margin-bottom: 20px;
+}
+
+.data-cards .el-card {
+    height: 160px;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-header .el-icon {
+    margin-left: 5px;
+    color: #909399;
+    cursor: help;
+}
+
+.card-content {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.main-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #303133;
+    margin-bottom: 10px;
+}
+
+.compare {
+    font-size: 14px;
+    color: #909399;
+}
+
+.compare .up {
+    color: #67C23A;
+}
+
+.compare .down {
+    color: #F56C6C;
+}
+
+/* 图表卡片样式 */
+.chart-card {
+    margin-bottom: 20px;
+}
+
+.chart-card .card-header {
+    border-bottom: 1px solid #EBEEF5;
+    padding: 10px 20px;
+}
+
+.chart-container {
+    height: 400px;
+    padding: 20px;
+}
+
+/* 响应式布局 */
+@media screen and (max-width: 768px) {
+    .data-cards .el-card {
+        margin-bottom: 10px;
+    }
+    
+    .chart-container {
+        height: 300px;
+    }
+}
+
+/* 表单样式优化 */
+.el-form--inline .el-form-item {
+    margin-right: 20px;
+}
+
+.el-date-picker {
+    width: 320px;
+}
+
+/* 图表标题样式 */
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right .el-radio-group {
+    margin-left: 20px;
+} 

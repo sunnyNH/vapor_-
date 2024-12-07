@@ -1,0 +1,14 @@
+{
+  "packages": [
+    "swift",
+    "sqlite"
+  ],
+  "env": {
+    "DATABASE_PATH": "${PWD}/Public/db.sqlite"
+  },
+  "shell": {
+    "init_hook": [
+      "swift --version"
+    ]
+  }
+} 

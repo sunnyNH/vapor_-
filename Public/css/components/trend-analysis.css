@@ -1,0 +1,106 @@
+/* 趋势分析页面样式 */
+.trend-analysis {
+    padding: 20px;
+}
+
+/* 筛选器容器 */
+.filter-container {
+    margin-bottom: 20px;
+}
+
+/* 图表卡片样式 */
+.chart-card {
+    margin-bottom: 20px;
+}
+
+.chart-card .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #EBEEF5;
+    padding: 10px 20px;
+}
+
+.chart-container {
+    height: 400px;
+    padding: 20px;
+}
+
+/* 关键词列表样式 */
+.keyword-list {
+    padding: 10px;
+}
+
+.keyword-list .el-table {
+    margin-top: 0;
+}
+
+/* 迷你图表样式 */
+.mini-chart {
+    height: 50px;
+    width: 100%;
+}
+
+/* 趋势值样式 */
+.up {
+    color: #67C23A;
+}
+
+.down {
+    color: #F56C6C;
+}
+
+/* 图表标题样式 */
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right .el-radio-group {
+    margin-left: 20px;
+}
+
+/* 表单样式优化 */
+.el-form--inline .el-form-item {
+    margin-right: 20px;
+}
+
+.el-date-picker {
+    width: 320px;
+}
+
+/* 响应式布局 */
+@media screen and (max-width: 768px) {
+    .trend-analysis {
+        padding: 10px;
+    }
+
+    .chart-container {
+        height: 300px;
+    }
+
+    .el-col {
+        margin-bottom: 20px;
+    }
+}
+
+/* 工具提示图标样式 */
+.card-header .el-icon {
+    margin-left: 5px;
+    color: #909399;
+    cursor: help;
+}
+
+/* 表格内容样式 */
+.el-table {
+    font-size: 14px;
+}
+
+.el-table th {
+    background-color: #F5F7FA;
+    color: #606266;
+}
+
+.el-table td {
+    padding: 8px 0;
+} 
