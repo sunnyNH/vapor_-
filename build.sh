@@ -24,12 +24,9 @@ npm run build
 echo "🧹 清理构建缓存..."
 cd ..
 
-echo "⚙️ 构建后端项目..."
-vapor build --configuration release
 
 echo "✅ 构建完成！"
 echo ""
 echo "📁 前端文件已输出到: Public/"
-echo "📁 后端可执行文件: .build/release/App"
 echo ""
 echo "🎉 项目构建成功！可以部署了。"
